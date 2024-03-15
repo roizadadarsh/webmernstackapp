@@ -52,7 +52,7 @@ export const AuthProvider = ({children})=>{
       
      const getServicesData = async()=>{
         try {
-         const response = await fetch("hhttps://webmern.onrender.com/api/data/service",{
+         const response = await fetch("https://webmern.onrender.com/api/data/service",{
             method: "GET"
          })
           if(response.ok){
