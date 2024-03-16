@@ -66,12 +66,12 @@ const Home = () => {
             the digital age.
           </p>
           <div className="btn btn-group">
-            <a href="/contact">
-              <button className="btn primary-btn">connect now</button>
-            </a>
-            <a href="/services">
-              <button className="btn secondary-btn">learn more</button>
-            </a>
+            <NavLink to="/contact">
+                  <button className="btn primary-btn"> Connect Now</button>
+                </NavLink>
+              <NavLink to="/services">
+                <button className="btn secondary-btn">learn more</button>
+              </NavLink>
           </div>
         </div>
       </div>
