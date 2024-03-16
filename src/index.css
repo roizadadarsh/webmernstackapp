@@ -655,6 +655,13 @@ td:nth-child(5):hover {
   .card1 {
     width: 100%;
   }
+  .section-services{
+    background-color: white;
+    color: black;
+  }
+  .main-heading1{
+     color: black;
+  }
 }
 
 /* CSS for large screens */
