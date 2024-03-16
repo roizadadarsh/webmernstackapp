@@ -21,11 +21,11 @@ const Services = () => {
             </div>
             <div className="card1-details">
               <div className="grid grid-two-cols">
-                <p style={{ color: 'white' }}>{provider}</p>
-                <p style={{ color: 'white' }}>{price}</p>
+                <p style={{ color: 'black' }}>{provider}</p>
+                <p style={{ color: 'black' }}>{price}</p>
               </div>
-              <h2 style={{ color: 'white' }}>{service}</h2>
-              <p style={{ color: 'white' }}>{description}</p>
+              <h2 style={{ color: 'black' }}>{service}</h2>
+              <p style={{ color: 'black' }}>{description}</p>
             </div>
           </div>
         );
