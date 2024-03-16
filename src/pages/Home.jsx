@@ -18,12 +18,12 @@ const Home = () => {
               tailored to meet your unique needs.
             </p>
             <div className="btn btn-group">
-              <a href="/contact">
-                <button className="btn primary-btn">connect now</button>
-              </a>
-              <a href="/services">
+              <NavLink to="/contact">
+                  <button className="btn primary-btn"> Connect Now</button>
+                </NavLink>
+              <NavLink to="/services">
                 <button className="btn secondary-btn">learn more</button>
-              </a>
+              </NavLink>
             </div>
           </div>
 
